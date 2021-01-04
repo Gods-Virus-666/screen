@@ -1,4 +1,4 @@
-#You are creating a program that can automatically detect what screen resolution a user is using
+#This program will automatically detect what screen resolution you are using.
 from pynput.mouse import Button, Controller
 mouse = Controller()
 A = (0,999999)
@@ -15,7 +15,3 @@ I=int(H)
 J=str(I+1)
 K=str(F+1)
 print("Screen Resolution is: "+J+"x"+K)
-
-
-
-
